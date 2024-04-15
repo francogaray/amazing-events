@@ -1,0 +1,85 @@
+.card-img-top {
+    object-fit: cover;
+    height: 15rem;
+}
+
+.nav-link {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin: 0.5rem !important;
+}
+
+.nav-link:hover {
+    background-color: #ebaac8 !important;
+}
+
+.active {
+    background-color: #d90368 !important;
+    color: #ffffff !important;
+}
+
+.btn:hover {
+    background-color: #ff067a !important;
+}
+
+.btn {
+    background-color: #d90368 !important;
+}
+
+.title {
+    background-image: url(../img/img_banner.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    align-items: center;;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.text-customized {
+    color: #d90368 !important;
+}
+
+.form-check-input:checked {
+    background-color: #d90368 !important;
+    border-color: #d90368 !important;
+}
+
+
+.bg-personalized {
+    background-color: #d90368 !important;
+}
+
+.bg-personalized1 {
+    background-color: #d90368 !important;
+}
+
+.bg-personalized2 {
+    background-color: #d90368 !important;
+}
+
+.social-networks:hover {
+    color: #d90368;
+}
+
+.foot {
+    background-color: #1f0b69;
+}
+
+@media screen and (max-width: 767px) {
+    #categoryEvent {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+    }
+    .navbar-brand img {
+        height: 30px;
+    }
+}
